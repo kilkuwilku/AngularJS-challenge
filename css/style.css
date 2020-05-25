@@ -1,6 +1,6 @@
 body {
     background: #363F48;
-    color: white;
+    color: gray;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -13,6 +13,10 @@ input[type=number]::-webkit-outer-spin-button {
     padding-top: 50px;
 }
 
-.btn-up {
-    margin-bottom: 5px;
+.btn {
+    margin-top: 5px;
+}
+
+.modal-backdrop {
+    opacity: .5;
 }
